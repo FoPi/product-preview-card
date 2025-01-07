@@ -1,5 +1,6 @@
 :root
   --color-primary-dark: hsl(158, 36%, 37%)
+  --color-primary-hover: hsl(158, 36%, 25%)
   --color-primary-cream: hsl(30, 38%, 92%)
   --color-neutral-dark-blue: hsl(212, 21%, 14%)
   --color-neutral-grayish-blue: hsl(228, 12%, 48%)
@@ -89,6 +90,9 @@ body
     color: var(--color-neutral-white)
     border: none
     border-radius: 10px
+    cursor: pointer
+    &:hover
+      background-color: var(--color-primary-hover)
 
 .attribution
   display: none
